@@ -1,4 +1,28 @@
-Delete domain:
+INTRODUCTION:
+------------
+
+This module contains script files to  delete domains.
+
+
+REQUIREMENTS:
+------------
+
+This module requires the following modules:
+
+ * Python 2.7.x
+   Libraries
+  * requests
+  * sys
+  * json
+  * time
+
+ * The scripts must be run outside sddc-manager environment.
+
+ * DNS resolution must be done for sddc-manager.
+
+
+PREREQUSITES:
+--------------
 
 The following data is required
 
@@ -9,6 +33,10 @@ Back up the data on the domain.
 TIP
 Migrate the VMs that you want to retain, to another domain.
 
-Usage:
-    python delete_domain.py <hostname> <username> <password> <domain_id>
+
+
+USAGE:
+-----
+
+Usage:	python delete_domain.py <hostname> <username> <password> <domain_id>
 
